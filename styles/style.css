@@ -1,0 +1,55 @@
+#profile-pic {
+    max-height: 40px; 
+    margin-right: 10px;
+}
+
+footer {
+    bottom: 0;
+    width: 100%;
+    position: relative;
+}
+
+iframe {
+    height: 300px;
+    width: 100%;
+    border: 0;
+  }
+
+.resume-section {
+    margin-left: 20px;
+}
+
+.image-container {
+    position: relative;
+    width: 100%;
+  }
+  
+.image-text {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    background-color: rgba(34, 34, 34, 0.649);
+    border-radius: 5px;
+    padding: 8px;
+  }
+  
+.image-text h1 {
+    font-family: "Arial", sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+.image-text p {
+    font-family: "Arial", sans-serif;
+    font-size: 18px;
+    margin-bottom: 0;
+  }
+
+.full-width-image {
+    width: 100%;
+    display: block;
+  }
